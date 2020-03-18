@@ -26,9 +26,9 @@ export default {
                                     i1.value.map((item2, index2) => {
                                         return (
                                             <div style={{width: item2.y + 'px', float: 'left'}}>
-                                                {item.x.map((i3, index3) => {
+                                                {item2.x.map((ii3, index3) => {
                                                     return (
-                                                        <div style={{width: item2.y + 'px', height: i3 + 'px', position: 'relative'}} class="border1 showdel">
+                                                        <div style={{width: item2.y + 'px', height: ii3 + 'px', position: 'relative'}} class="border1 showdel">
                                                             <span class="del" onClick={() => this.del(index + '-' + index1 + '-' + index2 + '-' + index3)}>X</span>
                                                         </div>
                                                     )
